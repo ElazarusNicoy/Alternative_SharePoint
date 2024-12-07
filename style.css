@@ -1,0 +1,105 @@
+/* General Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border don't affect element's width/height */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Set a readable font */
+    line-height: 1.6; /* Better line spacing for readability */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Default text color */
+    padding: 0 20px; /* Padding on left and right */
+}
+
+/* Header Section */
+.header {
+    background-color: #333; /* Dark background for the header */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center; /* Center align the header content */
+}
+
+.header h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+}
+
+.header p {
+    font-size: 1.1rem; /* Slightly larger font for the paragraph */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #444; /* Slightly lighter shade for navbar */
+    overflow: hidden; /* Ensure that navbar stays within its container */
+}
+
+.navbar a {
+    color: white; /* White text color for links */
+    padding: 14px 20px; /* Spacing for the links */
+    text-decoration: none; /* Remove underlines */
+    float: left; /* Align links to the left */
+    text-align: center; /* Center the text in each link */
+}
+
+.navbar a:hover {
+    background-color: #ddd; /* Lighter background on hover */
+    color: black; /* Change text color to black on hover */
+}
+
+/* Main Content Area */
+.main-content {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out the sections */
+    padding: 20px;
+    margin-top: 20px; /* Add space above the content */
+}
+
+/* Section Style for Individual Sections Inside Main Content */
+.section {
+    background-color: white; /* White background for each section */
+    padding: 20px; /* Padding inside each section */
+    border: 1px solid #ccc; /* Light border around each section */
+    width: 48%; /* Each section takes up 48% of the width (two side by side) */
+    margin-bottom: 20px; /* Space between sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
+}
+
+.section h2 {
+    font-size: 1.8rem; /* Larger heading for each section */
+    color: #333; /* Dark text color for section headings */
+}
+
+.section p {
+    font-size: 1rem; /* Standard font size for paragraphs */
+    color: #666; /* Lighter text color for paragraphs */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text in the footer */
+    text-align: center; /* Center-align footer content */
+    padding: 10px;
+    position: fixed; /* Fix the footer to the bottom of the page */
+    width: 100%; /* Full width of the page */
+    bottom: 0; /* Stick it to the bottom */
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column; /* Stack sections on top of each other */
+    }
+
+    .section {
+        width: 100%; /* Full width for each section */
+    }
+
+    .navbar a {
+        display: block; /* Display links as block elements on small screens */
+        width: 100%; /* Ensure links take up full width */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}

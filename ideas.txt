@@ -1,0 +1,28 @@
+homepage
+
+vertical side navigation
+when hover: a center display of ano laman nun (similar sa mga shopping website)
+
+naka list dun yung sharepoint services
+
+12.02.2024
+have a appropriate icon per each sub menu
+
+clean header
+side left side bar
+
+log in/log out icon top left
+hover side bar icons to reveal  words of the icons
+
+hover selection of words
+minimal color use
+aptos font
+
+short and straightforward description what the web is for
+at the center of the layout at home page
+
+
+show sample layout: sharepoint home
+: sharepoint hq scm
+: sharepoint PR library with add document
+
